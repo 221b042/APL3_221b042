@@ -1,0 +1,19 @@
+class Mother 
+{
+    int x = 10;
+    void show() {
+        System.out.println("Show method of Mother is called. Value of x: " + x);
+    }
+}
+
+class Child extends Mother {
+}
+
+public class Application {
+    public static void main(String args[]) {
+        Mother m = new Mother();
+        m.show();
+        Child ch = new Child();
+        ch.show();
+    }
+}
