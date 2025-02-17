@@ -1,2 +1,0 @@
-class Arjun extends Pandav {
-}
